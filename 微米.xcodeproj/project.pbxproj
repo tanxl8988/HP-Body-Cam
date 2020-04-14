@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045F37E41EAD97E8003A424F /* APKLocalFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F37E31EAD97E8003A424F /* APKLocalFileCell.m */; };
+		045F37ED1EAD9841003A424F /* APKVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 045F37EB1EAD9841003A424F /* APKVideoPlayer.m */; };
+		046636301F668C6700317C7F /* APKDVRListen.m in Sources */ = {isa = PBXBuildFile; fileRef = 0466362F1F668C6700317C7F /* APKDVRListen.m */; };
+		046636331F66934200317C7F /* APKGetDVRRecordingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 046636321F66934200317C7F /* APKGetDVRRecordingState.m */; };
+		047C604F1F7CF7D30084D76B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 047C60511F7CF7D30084D76B /* InfoPlist.strings */; };
+		0486B3871ED4079800F793AF /* APKAlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0486B3861ED4079800F793AF /* APKAlertTool.m */; };
+		04982E731F315D0300D242F0 /* LocalFileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04982E721F315D0300D242F0 /* LocalFileInfo.m */; };
+		04982E761F31813000D242F0 /* APKLocalFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04982E751F31813000D242F0 /* APKLocalFile.m */; };
+		04982E791F31C11500D242F0 /* APKCachingAssetThumbnail.m in Sources */ = {isa = PBXBuildFile; fileRef = 04982E781F31C11500D242F0 /* APKCachingAssetThumbnail.m */; };
+		04982E7C1F31C12E00D242F0 /* APKRetrieveLocalFileListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 04982E7B1F31C12E00D242F0 /* APKRetrieveLocalFileListing.m */; };
+		04AA06B11E9B2A4B0084D715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06B01E9B2A4B0084D715 /* main.m */; };
+		04AA06B41E9B2A4B0084D715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06B31E9B2A4B0084D715 /* AppDelegate.m */; };
+		04AA06BA1E9B2A4B0084D715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AA06B81E9B2A4B0084D715 /* Main.storyboard */; };
+		04AA06BC1E9B2A4B0084D715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA06BB1E9B2A4B0084D715 /* Assets.xcassets */; };
+		04AA06D61E9B2AAC0084D715 /* APKBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06CB1E9B2AAC0084D715 /* APKBaseCollectionViewController.m */; };
+		04AA06D71E9B2AAC0084D715 /* APKBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06CD1E9B2AAC0084D715 /* APKBaseNavigationController.m */; };
+		04AA06D81E9B2AAC0084D715 /* APKBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06CF1E9B2AAC0084D715 /* APKBaseTabBarController.m */; };
+		04AA06D91E9B2AAC0084D715 /* APKBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06D11E9B2AAC0084D715 /* APKBaseTableViewController.m */; };
+		04AA06DA1E9B2AAC0084D715 /* APKBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06D31E9B2AAC0084D715 /* APKBaseViewController.m */; };
+		04AA06E01E9B2B470084D715 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04AA06E21E9B2B470084D715 /* Localizable.strings */; };
+		04AA06E61E9B2BD10084D715 /* APKFunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06E51E9B2BD10084D715 /* APKFunctionListViewController.m */; };
+		04AA06E91E9B2F620084D715 /* APKCameraControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06E81E9B2F620084D715 /* APKCameraControlViewController.m */; };
+		04AA06EC1E9B2F9E0084D715 /* APKCameraPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06EB1E9B2F9E0084D715 /* APKCameraPreviewViewController.m */; };
+		04AA06EF1E9B2FB10084D715 /* APKCameraBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06EE1E9B2FB10084D715 /* APKCameraBrowserViewController.m */; };
+		04AA06F21E9B2FC60084D715 /* APKLocalAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06F11E9B2FC60084D715 /* APKLocalAlbumViewController.m */; };
+		04AA06F81E9B57790084D715 /* APKCameraSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AA06F71E9B57790084D715 /* APKCameraSettingsViewController.m */; };
+		04B276771F30713000BBF586 /* APKAITCGI.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276601F30713000BBF586 /* APKAITCGI.m */; };
+		04B276781F30713000BBF586 /* APKBatchDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276621F30713000BBF586 /* APKBatchDelete.m */; };
+		04B276791F30713000BBF586 /* APKBatchDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276641F30713000BBF586 /* APKBatchDownload.m */; };
+		04B2767B1F30713000BBF586 /* APKDVR.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276681F30713000BBF586 /* APKDVR.m */; };
+		04B2767C1F30713000BBF586 /* APKDVRCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2766A1F30713000BBF586 /* APKDVRCommand.m */; };
+		04B2767D1F30713000BBF586 /* APKDVRCommandFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2766C1F30713000BBF586 /* APKDVRCommandFactory.m */; };
+		04B2767E1F30713000BBF586 /* APKDVRFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2766E1F30713000BBF586 /* APKDVRFile.m */; };
+		04B2767F1F30713000BBF586 /* APKDVRFileDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276701F30713000BBF586 /* APKDVRFileDownloadTask.m */; };
+		04B276801F30713000BBF586 /* APKDVRFileDownloadTaskQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276721F30713000BBF586 /* APKDVRFileDownloadTaskQueue.m */; };
+		04B276811F30713000BBF586 /* APKDVRSettingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276741F30713000BBF586 /* APKDVRSettingInfo.m */; };
+		04B276821F30713000BBF586 /* APKRetrieveDVRFileListing.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276761F30713000BBF586 /* APKRetrieveDVRFileListing.m */; };
+		04B2768E1F30715900BBF586 /* APKDVRCommandResponseObjectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276851F30715900BBF586 /* APKDVRCommandResponseObjectHandler.m */; };
+		04B2768F1F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276871F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.m */; };
+		04B276901F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276891F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.m */; };
+		04B276911F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2768B1F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.m */; };
+		04B276921F30715900BBF586 /* APKWifiInfoResponseObjectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2768D1F30715900BBF586 /* APKWifiInfoResponseObjectHandler.m */; };
+		04B276951F3071B300BBF586 /* APKMOCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276941F3071B300BBF586 /* APKMOCManager.m */; };
+		04B276981F307C9400BBF586 /* APKRecordStateResponseObjectHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B276971F307C9400BBF586 /* APKRecordStateResponseObjectHandler.m */; };
+		04C1172B1EA9E317008E9DB0 /* APKDVRFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C1172A1EA9E317008E9DB0 /* APKDVRFileCell.m */; };
+		04C7223D1EA8502A0064AE0A /* APKPhotosTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7222C1EA8502A0064AE0A /* APKPhotosTool.m */; };
+		04C722491EA850420064AE0A /* APKWifiTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C722461EA850420064AE0A /* APKWifiTool.m */; };
+		04C7225D1EA850AE0064AE0A /* APKMWPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7225C1EA850AE0064AE0A /* APKMWPhoto.m */; };
+		04C722D01EA859850064AE0A /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C722CF1EA859850064AE0A /* MobileVLCKit.framework */; };
+		04C722D21EA859A20064AE0A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C722D11EA859A20064AE0A /* AudioToolbox.framework */; };
+		04C722D41EA859B00064AE0A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C722D31EA859B00064AE0A /* libxml2.tbd */; };
+		04C722D61EA859BF0064AE0A /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C722D51EA859BF0064AE0A /* libstdc++.6.0.9.tbd */; };
+		04C722D81EA859CB0064AE0A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C722D71EA859CB0064AE0A /* libiconv.tbd */; };
+		04C722DA1EA859D50064AE0A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C722D91EA859D50064AE0A /* libbz2.tbd */; };
+		04C722F11EA88A5F0064AE0A /* WeiMiModal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04C722EF1EA88A5F0064AE0A /* WeiMiModal.xcdatamodeld */; };
+		04C722F41EA8937D0064AE0A /* APKModifyWifiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C722F31EA8937D0064AE0A /* APKModifyWifiViewController.m */; };
+		04C722F71EA8A5490064AE0A /* APKLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C722F61EA8A5490064AE0A /* APKLiveViewController.m */; };
+		04DF70FD1EE8023300B2CAC1 /* APKDownloadInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF70FB1EE8023300B2CAC1 /* APKDownloadInfoView.m */; };
+		04DF70FE1EE8023300B2CAC1 /* APKDownloadInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DF70FC1EE8023300B2CAC1 /* APKDownloadInfoView.xib */; };
+		04E3A62B1F8F5BAC00121D28 /* CooAVPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E3A62A1F8F5BAC00121D28 /* CooAVPlayer.m */; };
+		AF0FA52868CB080A191A4CF8 /* libPods-微米.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F758C7BBA176EF43A655C7CB /* libPods-微米.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		045F37E21EAD97E8003A424F /* APKLocalFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLocalFileCell.h; sourceTree = "<group>"; };
+		045F37E31EAD97E8003A424F /* APKLocalFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalFileCell.m; sourceTree = "<group>"; };
+		045F37EA1EAD9841003A424F /* APKVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKVideoPlayer.h; sourceTree = "<group>"; };
+		045F37EB1EAD9841003A424F /* APKVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKVideoPlayer.m; sourceTree = "<group>"; };
+		0466362E1F668C6700317C7F /* APKDVRListen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRListen.h; sourceTree = "<group>"; };
+		0466362F1F668C6700317C7F /* APKDVRListen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRListen.m; sourceTree = "<group>"; };
+		046636311F66934200317C7F /* APKGetDVRRecordingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetDVRRecordingState.h; sourceTree = "<group>"; };
+		046636321F66934200317C7F /* APKGetDVRRecordingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetDVRRecordingState.m; sourceTree = "<group>"; };
+		046CA8A71F71087A00771698 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		046CA8A91F71087A00771698 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		047C60501F7CF7D30084D76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047C60521F7CF7D70084D76B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		047C60531F7CF7ED0084D76B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		047C60541F7CF7EE0084D76B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047C60551F7CF7EF0084D76B /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047C60561F7CF7F00084D76B /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		047C60571F7CF7F00084D76B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0486B3851ED4079800F793AF /* APKAlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKAlertTool.h; sourceTree = "<group>"; };
+		0486B3861ED4079800F793AF /* APKAlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKAlertTool.m; sourceTree = "<group>"; };
+		04982E711F315D0300D242F0 /* LocalFileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFileInfo.h; sourceTree = "<group>"; };
+		04982E721F315D0300D242F0 /* LocalFileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileInfo.m; sourceTree = "<group>"; };
+		04982E741F31813000D242F0 /* APKLocalFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLocalFile.h; sourceTree = "<group>"; };
+		04982E751F31813000D242F0 /* APKLocalFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalFile.m; sourceTree = "<group>"; };
+		04982E771F31C11500D242F0 /* APKCachingAssetThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCachingAssetThumbnail.h; sourceTree = "<group>"; };
+		04982E781F31C11500D242F0 /* APKCachingAssetThumbnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCachingAssetThumbnail.m; sourceTree = "<group>"; };
+		04982E7A1F31C12E00D242F0 /* APKRetrieveLocalFileListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKRetrieveLocalFileListing.h; sourceTree = "<group>"; };
+		04982E7B1F31C12E00D242F0 /* APKRetrieveLocalFileListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKRetrieveLocalFileListing.m; sourceTree = "<group>"; };
+		04AA06AC1E9B2A4B0084D715 /* 微米.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微米.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AA06B01E9B2A4B0084D715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AA06B21E9B2A4B0084D715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AA06B31E9B2A4B0084D715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AA06B91E9B2A4B0084D715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AA06BB1E9B2A4B0084D715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AA06C01E9B2A4B0084D715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AA06CA1E9B2AAC0084D715 /* APKBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseCollectionViewController.h; sourceTree = "<group>"; };
+		04AA06CB1E9B2AAC0084D715 /* APKBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseCollectionViewController.m; sourceTree = "<group>"; };
+		04AA06CC1E9B2AAC0084D715 /* APKBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseNavigationController.h; sourceTree = "<group>"; };
+		04AA06CD1E9B2AAC0084D715 /* APKBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseNavigationController.m; sourceTree = "<group>"; };
+		04AA06CE1E9B2AAC0084D715 /* APKBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseTabBarController.h; sourceTree = "<group>"; };
+		04AA06CF1E9B2AAC0084D715 /* APKBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseTabBarController.m; sourceTree = "<group>"; };
+		04AA06D01E9B2AAC0084D715 /* APKBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseTableViewController.h; sourceTree = "<group>"; };
+		04AA06D11E9B2AAC0084D715 /* APKBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseTableViewController.m; sourceTree = "<group>"; };
+		04AA06D21E9B2AAC0084D715 /* APKBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBaseViewController.h; sourceTree = "<group>"; };
+		04AA06D31E9B2AAC0084D715 /* APKBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBaseViewController.m; sourceTree = "<group>"; };
+		04AA06DC1E9B2B1E0084D715 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		04AA06E11E9B2B470084D715 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04AA06E31E9B2B4A0084D715 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		04AA06E41E9B2BD10084D715 /* APKFunctionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKFunctionListViewController.h; sourceTree = "<group>"; };
+		04AA06E51E9B2BD10084D715 /* APKFunctionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKFunctionListViewController.m; sourceTree = "<group>"; };
+		04AA06E71E9B2F620084D715 /* APKCameraControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCameraControlViewController.h; sourceTree = "<group>"; };
+		04AA06E81E9B2F620084D715 /* APKCameraControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCameraControlViewController.m; sourceTree = "<group>"; };
+		04AA06EA1E9B2F9E0084D715 /* APKCameraPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCameraPreviewViewController.h; sourceTree = "<group>"; };
+		04AA06EB1E9B2F9E0084D715 /* APKCameraPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCameraPreviewViewController.m; sourceTree = "<group>"; };
+		04AA06ED1E9B2FB10084D715 /* APKCameraBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCameraBrowserViewController.h; sourceTree = "<group>"; };
+		04AA06EE1E9B2FB10084D715 /* APKCameraBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCameraBrowserViewController.m; sourceTree = "<group>"; };
+		04AA06F01E9B2FC60084D715 /* APKLocalAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLocalAlbumViewController.h; sourceTree = "<group>"; };
+		04AA06F11E9B2FC60084D715 /* APKLocalAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLocalAlbumViewController.m; sourceTree = "<group>"; };
+		04AA06F61E9B57790084D715 /* APKCameraSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKCameraSettingsViewController.h; sourceTree = "<group>"; };
+		04AA06F71E9B57790084D715 /* APKCameraSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKCameraSettingsViewController.m; sourceTree = "<group>"; };
+		04B2765F1F30713000BBF586 /* APKAITCGI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKAITCGI.h; sourceTree = "<group>"; };
+		04B276601F30713000BBF586 /* APKAITCGI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKAITCGI.m; sourceTree = "<group>"; };
+		04B276611F30713000BBF586 /* APKBatchDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBatchDelete.h; sourceTree = "<group>"; };
+		04B276621F30713000BBF586 /* APKBatchDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBatchDelete.m; sourceTree = "<group>"; };
+		04B276631F30713000BBF586 /* APKBatchDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKBatchDownload.h; sourceTree = "<group>"; };
+		04B276641F30713000BBF586 /* APKBatchDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKBatchDownload.m; sourceTree = "<group>"; };
+		04B276671F30713000BBF586 /* APKDVR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVR.h; sourceTree = "<group>"; };
+		04B276681F30713000BBF586 /* APKDVR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVR.m; sourceTree = "<group>"; };
+		04B276691F30713000BBF586 /* APKDVRCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRCommand.h; sourceTree = "<group>"; };
+		04B2766A1F30713000BBF586 /* APKDVRCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommand.m; sourceTree = "<group>"; };
+		04B2766B1F30713000BBF586 /* APKDVRCommandFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRCommandFactory.h; sourceTree = "<group>"; };
+		04B2766C1F30713000BBF586 /* APKDVRCommandFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommandFactory.m; sourceTree = "<group>"; };
+		04B2766D1F30713000BBF586 /* APKDVRFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRFile.h; sourceTree = "<group>"; };
+		04B2766E1F30713000BBF586 /* APKDVRFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRFile.m; sourceTree = "<group>"; };
+		04B2766F1F30713000BBF586 /* APKDVRFileDownloadTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRFileDownloadTask.h; sourceTree = "<group>"; };
+		04B276701F30713000BBF586 /* APKDVRFileDownloadTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRFileDownloadTask.m; sourceTree = "<group>"; };
+		04B276711F30713000BBF586 /* APKDVRFileDownloadTaskQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRFileDownloadTaskQueue.h; sourceTree = "<group>"; };
+		04B276721F30713000BBF586 /* APKDVRFileDownloadTaskQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRFileDownloadTaskQueue.m; sourceTree = "<group>"; };
+		04B276731F30713000BBF586 /* APKDVRSettingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRSettingInfo.h; sourceTree = "<group>"; };
+		04B276741F30713000BBF586 /* APKDVRSettingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRSettingInfo.m; sourceTree = "<group>"; };
+		04B276751F30713000BBF586 /* APKRetrieveDVRFileListing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKRetrieveDVRFileListing.h; sourceTree = "<group>"; };
+		04B276761F30713000BBF586 /* APKRetrieveDVRFileListing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKRetrieveDVRFileListing.m; sourceTree = "<group>"; };
+		04B276841F30715900BBF586 /* APKDVRCommandResponseObjectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRCommandResponseObjectHandler.h; sourceTree = "<group>"; };
+		04B276851F30715900BBF586 /* APKDVRCommandResponseObjectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRCommandResponseObjectHandler.m; sourceTree = "<group>"; };
+		04B276861F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRSettingInfoResponseObjectHandler.h; sourceTree = "<group>"; };
+		04B276871F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRSettingInfoResponseObjectHandler.m; sourceTree = "<group>"; };
+		04B276881F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetDVRFileListResponseObjectHandler.h; sourceTree = "<group>"; };
+		04B276891F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetDVRFileListResponseObjectHandler.m; sourceTree = "<group>"; };
+		04B2768A1F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKGetLiveInfoResponseObjectHandler.h; sourceTree = "<group>"; };
+		04B2768B1F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKGetLiveInfoResponseObjectHandler.m; sourceTree = "<group>"; };
+		04B2768C1F30715900BBF586 /* APKWifiInfoResponseObjectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKWifiInfoResponseObjectHandler.h; sourceTree = "<group>"; };
+		04B2768D1F30715900BBF586 /* APKWifiInfoResponseObjectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKWifiInfoResponseObjectHandler.m; sourceTree = "<group>"; };
+		04B276931F3071B300BBF586 /* APKMOCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKMOCManager.h; sourceTree = "<group>"; };
+		04B276941F3071B300BBF586 /* APKMOCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKMOCManager.m; sourceTree = "<group>"; };
+		04B276961F307C9400BBF586 /* APKRecordStateResponseObjectHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKRecordStateResponseObjectHandler.h; sourceTree = "<group>"; };
+		04B276971F307C9400BBF586 /* APKRecordStateResponseObjectHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKRecordStateResponseObjectHandler.m; sourceTree = "<group>"; };
+		04C117291EA9E317008E9DB0 /* APKDVRFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDVRFileCell.h; sourceTree = "<group>"; };
+		04C1172A1EA9E317008E9DB0 /* APKDVRFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDVRFileCell.m; sourceTree = "<group>"; };
+		04C7222B1EA8502A0064AE0A /* APKPhotosTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKPhotosTool.h; sourceTree = "<group>"; };
+		04C7222C1EA8502A0064AE0A /* APKPhotosTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKPhotosTool.m; sourceTree = "<group>"; };
+		04C722451EA850420064AE0A /* APKWifiTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKWifiTool.h; sourceTree = "<group>"; };
+		04C722461EA850420064AE0A /* APKWifiTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKWifiTool.m; sourceTree = "<group>"; };
+		04C722471EA850420064AE0A /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		04C7225B1EA850AE0064AE0A /* APKMWPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKMWPhoto.h; sourceTree = "<group>"; };
+		04C7225C1EA850AE0064AE0A /* APKMWPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKMWPhoto.m; sourceTree = "<group>"; };
+		04C722CF1EA859850064AE0A /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = VLCKit/MobileVLCKit.framework; sourceTree = "<group>"; };
+		04C722D11EA859A20064AE0A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		04C722D31EA859B00064AE0A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		04C722D51EA859BF0064AE0A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		04C722D71EA859CB0064AE0A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		04C722D91EA859D50064AE0A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		04C722F01EA88A5F0064AE0A /* WeiMiModal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeiMiModal.xcdatamodel; sourceTree = "<group>"; };
+		04C722F21EA8937D0064AE0A /* APKModifyWifiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKModifyWifiViewController.h; sourceTree = "<group>"; };
+		04C722F31EA8937D0064AE0A /* APKModifyWifiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKModifyWifiViewController.m; sourceTree = "<group>"; };
+		04C722F51EA8A5490064AE0A /* APKLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKLiveViewController.h; sourceTree = "<group>"; };
+		04C722F61EA8A5490064AE0A /* APKLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKLiveViewController.m; sourceTree = "<group>"; };
+		04DF70FA1EE8023300B2CAC1 /* APKDownloadInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APKDownloadInfoView.h; sourceTree = "<group>"; };
+		04DF70FB1EE8023300B2CAC1 /* APKDownloadInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APKDownloadInfoView.m; sourceTree = "<group>"; };
+		04DF70FC1EE8023300B2CAC1 /* APKDownloadInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APKDownloadInfoView.xib; sourceTree = "<group>"; };
+		04E3A6291F8F5BAC00121D28 /* CooAVPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CooAVPlayer.h; sourceTree = "<group>"; };
+		04E3A62A1F8F5BAC00121D28 /* CooAVPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CooAVPlayer.m; sourceTree = "<group>"; };
+		04FABDC41F418AC800E8C739 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		04FABDC61F41902800E8C739 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04FABDC71F4192CA00E8C739 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04FABDC81F4194D300E8C739 /* th */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = th; path = th.lproj/Localizable.strings; sourceTree = "<group>"; };
+		67B096DED318F75E98755A76 /* Pods-微米.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微米.release.xcconfig"; path = "Pods/Target Support Files/Pods-微米/Pods-微米.release.xcconfig"; sourceTree = "<group>"; };
+		A8FFD49184C7C929AD485190 /* Pods-微米.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微米.debug.xcconfig"; path = "Pods/Target Support Files/Pods-微米/Pods-微米.debug.xcconfig"; sourceTree = "<group>"; };
+		F758C7BBA176EF43A655C7CB /* libPods-微米.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微米.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AA06A91E9B2A4B0084D715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C722DA1EA859D50064AE0A /* libbz2.tbd in Frameworks */,
+				04C722D81EA859CB0064AE0A /* libiconv.tbd in Frameworks */,
+				04C722D61EA859BF0064AE0A /* libstdc++.6.0.9.tbd in Frameworks */,
+				04C722D41EA859B00064AE0A /* libxml2.tbd in Frameworks */,
+				04C722D21EA859A20064AE0A /* AudioToolbox.framework in Frameworks */,
+				04C722D01EA859850064AE0A /* MobileVLCKit.framework in Frameworks */,
+				AF0FA52868CB080A191A4CF8 /* libPods-微米.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045F37E51EAD9822003A424F /* video player */ = {
+			isa = PBXGroup;
+			children = (
+				04C722F51EA8A5490064AE0A /* APKLiveViewController.h */,
+				04C722F61EA8A5490064AE0A /* APKLiveViewController.m */,
+				045F37EA1EAD9841003A424F /* APKVideoPlayer.h */,
+				045F37EB1EAD9841003A424F /* APKVideoPlayer.m */,
+			);
+			name = "video player";
+			sourceTree = "<group>";
+		};
+		0486B37D1ED3E38A00F793AF /* dvr */ = {
+			isa = PBXGroup;
+			children = (
+				04B2765F1F30713000BBF586 /* APKAITCGI.h */,
+				04B276601F30713000BBF586 /* APKAITCGI.m */,
+				04B276611F30713000BBF586 /* APKBatchDelete.h */,
+				04B276621F30713000BBF586 /* APKBatchDelete.m */,
+				04B276631F30713000BBF586 /* APKBatchDownload.h */,
+				04B276641F30713000BBF586 /* APKBatchDownload.m */,
+				04B276671F30713000BBF586 /* APKDVR.h */,
+				04B276681F30713000BBF586 /* APKDVR.m */,
+				04B276691F30713000BBF586 /* APKDVRCommand.h */,
+				04B2766A1F30713000BBF586 /* APKDVRCommand.m */,
+				04B2766B1F30713000BBF586 /* APKDVRCommandFactory.h */,
+				04B2766C1F30713000BBF586 /* APKDVRCommandFactory.m */,
+				0466362E1F668C6700317C7F /* APKDVRListen.h */,
+				0466362F1F668C6700317C7F /* APKDVRListen.m */,
+				046636311F66934200317C7F /* APKGetDVRRecordingState.h */,
+				046636321F66934200317C7F /* APKGetDVRRecordingState.m */,
+				04B2766D1F30713000BBF586 /* APKDVRFile.h */,
+				04B2766E1F30713000BBF586 /* APKDVRFile.m */,
+				04B2766F1F30713000BBF586 /* APKDVRFileDownloadTask.h */,
+				04B276701F30713000BBF586 /* APKDVRFileDownloadTask.m */,
+				04B276711F30713000BBF586 /* APKDVRFileDownloadTaskQueue.h */,
+				04B276721F30713000BBF586 /* APKDVRFileDownloadTaskQueue.m */,
+				04B276731F30713000BBF586 /* APKDVRSettingInfo.h */,
+				04B276741F30713000BBF586 /* APKDVRSettingInfo.m */,
+				04B276751F30713000BBF586 /* APKRetrieveDVRFileListing.h */,
+				04B276761F30713000BBF586 /* APKRetrieveDVRFileListing.m */,
+				04B276831F30713F00BBF586 /* handleResponseObject */,
+			);
+			name = dvr;
+			sourceTree = "<group>";
+		};
+		04AA06A31E9B2A4B0084D715 = {
+			isa = PBXGroup;
+			children = (
+				04AA06AE1E9B2A4B0084D715 /* 微米 */,
+				04AA06AD1E9B2A4B0084D715 /* Products */,
+				708629719B7A3DB5115A611C /* Frameworks */,
+				F46C414FA6D16C1085ECC5FB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		04AA06AD1E9B2A4B0084D715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AA06AC1E9B2A4B0084D715 /* 微米.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AA06AE1E9B2A4B0084D715 /* 微米 */ = {
+			isa = PBXGroup;
+			children = (
+				04AA06C81E9B2A8B0084D715 /* Modal */,
+				04AA06C71E9B2A860084D715 /* View */,
+				04AA06C61E9B2A780084D715 /* Controller */,
+				04AA06AF1E9B2A4B0084D715 /* Supporting Files */,
+			);
+			path = "微米";
+			sourceTree = "<group>";
+		};
+		04AA06AF1E9B2A4B0084D715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AA06B21E9B2A4B0084D715 /* AppDelegate.h */,
+				04AA06B31E9B2A4B0084D715 /* AppDelegate.m */,
+				04AA06BB1E9B2A4B0084D715 /* Assets.xcassets */,
+				04AA06C01E9B2A4B0084D715 /* Info.plist */,
+				04AA06B01E9B2A4B0084D715 /* main.m */,
+				04AA06E21E9B2B470084D715 /* Localizable.strings */,
+				047C60511F7CF7D30084D76B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AA06C61E9B2A780084D715 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04AA06C91E9B2A980084D715 /* base */,
+				04AA06E41E9B2BD10084D715 /* APKFunctionListViewController.h */,
+				04AA06E51E9B2BD10084D715 /* APKFunctionListViewController.m */,
+				04AA06E71E9B2F620084D715 /* APKCameraControlViewController.h */,
+				04AA06E81E9B2F620084D715 /* APKCameraControlViewController.m */,
+				04C722F21EA8937D0064AE0A /* APKModifyWifiViewController.h */,
+				04C722F31EA8937D0064AE0A /* APKModifyWifiViewController.m */,
+				04AA06F61E9B57790084D715 /* APKCameraSettingsViewController.h */,
+				04AA06F71E9B57790084D715 /* APKCameraSettingsViewController.m */,
+				04AA06EA1E9B2F9E0084D715 /* APKCameraPreviewViewController.h */,
+				04AA06EB1E9B2F9E0084D715 /* APKCameraPreviewViewController.m */,
+				04AA06ED1E9B2FB10084D715 /* APKCameraBrowserViewController.h */,
+				04AA06EE1E9B2FB10084D715 /* APKCameraBrowserViewController.m */,
+				04AA06F01E9B2FC60084D715 /* APKLocalAlbumViewController.h */,
+				04AA06F11E9B2FC60084D715 /* APKLocalAlbumViewController.m */,
+				045F37E51EAD9822003A424F /* video player */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04AA06C71E9B2A860084D715 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04AA06B81E9B2A4B0084D715 /* Main.storyboard */,
+				0486B3851ED4079800F793AF /* APKAlertTool.h */,
+				0486B3861ED4079800F793AF /* APKAlertTool.m */,
+				04C117291EA9E317008E9DB0 /* APKDVRFileCell.h */,
+				04C1172A1EA9E317008E9DB0 /* APKDVRFileCell.m */,
+				045F37E21EAD97E8003A424F /* APKLocalFileCell.h */,
+				045F37E31EAD97E8003A424F /* APKLocalFileCell.m */,
+				04DF70FA1EE8023300B2CAC1 /* APKDownloadInfoView.h */,
+				04DF70FB1EE8023300B2CAC1 /* APKDownloadInfoView.m */,
+				04DF70FC1EE8023300B2CAC1 /* APKDownloadInfoView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		04AA06C81E9B2A8B0084D715 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				04E3A6281F8F5B6000121D28 /* CooPlayer */,
+				04C117221EA9A462008E9DB0 /* local */,
+				04C722591EA850870064AE0A /* CoreData */,
+				04C7224A1EA850490064AE0A /* tools */,
+				0486B37D1ED3E38A00F793AF /* dvr */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		04AA06C91E9B2A980084D715 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				04AA06CA1E9B2AAC0084D715 /* APKBaseCollectionViewController.h */,
+				04AA06CB1E9B2AAC0084D715 /* APKBaseCollectionViewController.m */,
+				04AA06CC1E9B2AAC0084D715 /* APKBaseNavigationController.h */,
+				04AA06CD1E9B2AAC0084D715 /* APKBaseNavigationController.m */,
+				04AA06CE1E9B2AAC0084D715 /* APKBaseTabBarController.h */,
+				04AA06CF1E9B2AAC0084D715 /* APKBaseTabBarController.m */,
+				04AA06D01E9B2AAC0084D715 /* APKBaseTableViewController.h */,
+				04AA06D11E9B2AAC0084D715 /* APKBaseTableViewController.m */,
+				04AA06D21E9B2AAC0084D715 /* APKBaseViewController.h */,
+				04AA06D31E9B2AAC0084D715 /* APKBaseViewController.m */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		04B276831F30713F00BBF586 /* handleResponseObject */ = {
+			isa = PBXGroup;
+			children = (
+				04B276841F30715900BBF586 /* APKDVRCommandResponseObjectHandler.h */,
+				04B276851F30715900BBF586 /* APKDVRCommandResponseObjectHandler.m */,
+				04B276861F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.h */,
+				04B276871F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.m */,
+				04B276881F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.h */,
+				04B276891F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.m */,
+				04B2768A1F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.h */,
+				04B2768B1F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.m */,
+				04B2768C1F30715900BBF586 /* APKWifiInfoResponseObjectHandler.h */,
+				04B2768D1F30715900BBF586 /* APKWifiInfoResponseObjectHandler.m */,
+				04B276961F307C9400BBF586 /* APKRecordStateResponseObjectHandler.h */,
+				04B276971F307C9400BBF586 /* APKRecordStateResponseObjectHandler.m */,
+			);
+			name = handleResponseObject;
+			sourceTree = "<group>";
+		};
+		04C117221EA9A462008E9DB0 /* local */ = {
+			isa = PBXGroup;
+			children = (
+				04C7225B1EA850AE0064AE0A /* APKMWPhoto.h */,
+				04C7225C1EA850AE0064AE0A /* APKMWPhoto.m */,
+				04982E771F31C11500D242F0 /* APKCachingAssetThumbnail.h */,
+				04982E781F31C11500D242F0 /* APKCachingAssetThumbnail.m */,
+				04982E741F31813000D242F0 /* APKLocalFile.h */,
+				04982E751F31813000D242F0 /* APKLocalFile.m */,
+				04982E7A1F31C12E00D242F0 /* APKRetrieveLocalFileListing.h */,
+				04982E7B1F31C12E00D242F0 /* APKRetrieveLocalFileListing.m */,
+			);
+			name = local;
+			sourceTree = "<group>";
+		};
+		04C7224A1EA850490064AE0A /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				04C7222B1EA8502A0064AE0A /* APKPhotosTool.h */,
+				04C7222C1EA8502A0064AE0A /* APKPhotosTool.m */,
+				04C722451EA850420064AE0A /* APKWifiTool.h */,
+				04C722461EA850420064AE0A /* APKWifiTool.m */,
+				04C722471EA850420064AE0A /* route.h */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		04C722591EA850870064AE0A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04B276931F3071B300BBF586 /* APKMOCManager.h */,
+				04B276941F3071B300BBF586 /* APKMOCManager.m */,
+				04982E711F315D0300D242F0 /* LocalFileInfo.h */,
+				04982E721F315D0300D242F0 /* LocalFileInfo.m */,
+				04C722EF1EA88A5F0064AE0A /* WeiMiModal.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		04E3A6281F8F5B6000121D28 /* CooPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				04E3A6291F8F5BAC00121D28 /* CooAVPlayer.h */,
+				04E3A62A1F8F5BAC00121D28 /* CooAVPlayer.m */,
+			);
+			name = CooPlayer;
+			sourceTree = "<group>";
+		};
+		708629719B7A3DB5115A611C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04C722D91EA859D50064AE0A /* libbz2.tbd */,
+				04C722D71EA859CB0064AE0A /* libiconv.tbd */,
+				04C722D51EA859BF0064AE0A /* libstdc++.6.0.9.tbd */,
+				04C722D31EA859B00064AE0A /* libxml2.tbd */,
+				04C722D11EA859A20064AE0A /* AudioToolbox.framework */,
+				04C722CF1EA859850064AE0A /* MobileVLCKit.framework */,
+				F758C7BBA176EF43A655C7CB /* libPods-微米.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46C414FA6D16C1085ECC5FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8FFD49184C7C929AD485190 /* Pods-微米.debug.xcconfig */,
+				67B096DED318F75E98755A76 /* Pods-微米.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AA06AB1E9B2A4B0084D715 /* 微米 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AA06C31E9B2A4B0084D715 /* Build configuration list for PBXNativeTarget "微米" */;
+			buildPhases = (
+				8578127C2D75D20BD385AE94 /* [CP] Check Pods Manifest.lock */,
+				04AA06A81E9B2A4B0084D715 /* Sources */,
+				04AA06A91E9B2A4B0084D715 /* Frameworks */,
+				04AA06AA1E9B2A4B0084D715 /* Resources */,
+				61BC3FF87FFC18A5F656CD51 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微米";
+			productName = "微米";
+			productReference = 04AA06AC1E9B2A4B0084D715 /* 微米.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AA06A41E9B2A4B0084D715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = APK;
+				TargetAttributes = {
+					04AA06AB1E9B2A4B0084D715 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Q2CKFH54BH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04AA06A71E9B2A4B0084D715 /* Build configuration list for PBXProject "微米" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				"zh-Hant",
+				"zh-Hans",
+				ru,
+				vi,
+				th,
+				ja,
+			);
+			mainGroup = 04AA06A31E9B2A4B0084D715;
+			productRefGroup = 04AA06AD1E9B2A4B0084D715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AA06AB1E9B2A4B0084D715 /* 微米 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AA06AA1E9B2A4B0084D715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047C604F1F7CF7D30084D76B /* InfoPlist.strings in Resources */,
+				04DF70FE1EE8023300B2CAC1 /* APKDownloadInfoView.xib in Resources */,
+				04AA06E01E9B2B470084D715 /* Localizable.strings in Resources */,
+				04AA06BC1E9B2A4B0084D715 /* Assets.xcassets in Resources */,
+				04AA06BA1E9B2A4B0084D715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		61BC3FF87FFC18A5F656CD51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-微米/Pods-微米-resources.sh",
+				"${PODS_ROOT}/MWPhotoBrowser/MWPhotoBrowser/MWPhotoBrowser.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-微米/Pods-微米-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8578127C2D75D20BD385AE94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-微米-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AA06A81E9B2A4B0084D715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B276921F30715900BBF586 /* APKWifiInfoResponseObjectHandler.m in Sources */,
+				04B276821F30713000BBF586 /* APKRetrieveDVRFileListing.m in Sources */,
+				04B276801F30713000BBF586 /* APKDVRFileDownloadTaskQueue.m in Sources */,
+				04C1172B1EA9E317008E9DB0 /* APKDVRFileCell.m in Sources */,
+				046636301F668C6700317C7F /* APKDVRListen.m in Sources */,
+				04AA06B41E9B2A4B0084D715 /* AppDelegate.m in Sources */,
+				04C7223D1EA8502A0064AE0A /* APKPhotosTool.m in Sources */,
+				046636331F66934200317C7F /* APKGetDVRRecordingState.m in Sources */,
+				04B2767D1F30713000BBF586 /* APKDVRCommandFactory.m in Sources */,
+				04AA06F81E9B57790084D715 /* APKCameraSettingsViewController.m in Sources */,
+				04DF70FD1EE8023300B2CAC1 /* APKDownloadInfoView.m in Sources */,
+				04B276791F30713000BBF586 /* APKBatchDownload.m in Sources */,
+				04AA06E91E9B2F620084D715 /* APKCameraControlViewController.m in Sources */,
+				04AA06DA1E9B2AAC0084D715 /* APKBaseViewController.m in Sources */,
+				04B276901F30715900BBF586 /* APKGetDVRFileListResponseObjectHandler.m in Sources */,
+				04C722F41EA8937D0064AE0A /* APKModifyWifiViewController.m in Sources */,
+				04982E761F31813000D242F0 /* APKLocalFile.m in Sources */,
+				04B2767C1F30713000BBF586 /* APKDVRCommand.m in Sources */,
+				04AA06F21E9B2FC60084D715 /* APKLocalAlbumViewController.m in Sources */,
+				04B276781F30713000BBF586 /* APKBatchDelete.m in Sources */,
+				04B276811F30713000BBF586 /* APKDVRSettingInfo.m in Sources */,
+				04AA06B11E9B2A4B0084D715 /* main.m in Sources */,
+				04B2767F1F30713000BBF586 /* APKDVRFileDownloadTask.m in Sources */,
+				04B2767E1F30713000BBF586 /* APKDVRFile.m in Sources */,
+				0486B3871ED4079800F793AF /* APKAlertTool.m in Sources */,
+				04AA06D81E9B2AAC0084D715 /* APKBaseTabBarController.m in Sources */,
+				04C722F71EA8A5490064AE0A /* APKLiveViewController.m in Sources */,
+				04B276981F307C9400BBF586 /* APKRecordStateResponseObjectHandler.m in Sources */,
+				04AA06D61E9B2AAC0084D715 /* APKBaseCollectionViewController.m in Sources */,
+				04B2768F1F30715900BBF586 /* APKDVRSettingInfoResponseObjectHandler.m in Sources */,
+				045F37ED1EAD9841003A424F /* APKVideoPlayer.m in Sources */,
+				04AA06EC1E9B2F9E0084D715 /* APKCameraPreviewViewController.m in Sources */,
+				04982E731F315D0300D242F0 /* LocalFileInfo.m in Sources */,
+				04AA06D71E9B2AAC0084D715 /* APKBaseNavigationController.m in Sources */,
+				04E3A62B1F8F5BAC00121D28 /* CooAVPlayer.m in Sources */,
+				04982E791F31C11500D242F0 /* APKCachingAssetThumbnail.m in Sources */,
+				04C7225D1EA850AE0064AE0A /* APKMWPhoto.m in Sources */,
+				04B2767B1F30713000BBF586 /* APKDVR.m in Sources */,
+				04C722F11EA88A5F0064AE0A /* WeiMiModal.xcdatamodeld in Sources */,
+				04C722491EA850420064AE0A /* APKWifiTool.m in Sources */,
+				04B276771F30713000BBF586 /* APKAITCGI.m in Sources */,
+				04AA06D91E9B2AAC0084D715 /* APKBaseTableViewController.m in Sources */,
+				04AA06E61E9B2BD10084D715 /* APKFunctionListViewController.m in Sources */,
+				04B276951F3071B300BBF586 /* APKMOCManager.m in Sources */,
+				045F37E41EAD97E8003A424F /* APKLocalFileCell.m in Sources */,
+				04AA06EF1E9B2FB10084D715 /* APKCameraBrowserViewController.m in Sources */,
+				04B2768E1F30715900BBF586 /* APKDVRCommandResponseObjectHandler.m in Sources */,
+				04B276911F30715900BBF586 /* APKGetLiveInfoResponseObjectHandler.m in Sources */,
+				04982E7C1F31C12E00D242F0 /* APKRetrieveLocalFileListing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047C60511F7CF7D30084D76B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047C60501F7CF7D30084D76B /* en */,
+				047C60521F7CF7D70084D76B /* zh-Hant */,
+				047C60531F7CF7ED0084D76B /* zh-Hans */,
+				047C60541F7CF7EE0084D76B /* ru */,
+				047C60551F7CF7EF0084D76B /* vi */,
+				047C60561F7CF7F00084D76B /* th */,
+				047C60571F7CF7F00084D76B /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04AA06B81E9B2A4B0084D715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA06B91E9B2A4B0084D715 /* Base */,
+				04AA06DC1E9B2B1E0084D715 /* zh-Hant */,
+				046CA8A71F71087A00771698 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AA06E21E9B2B470084D715 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AA06E11E9B2B470084D715 /* en */,
+				04AA06E31E9B2B4A0084D715 /* zh-Hant */,
+				04FABDC41F418AC800E8C739 /* zh-Hans */,
+				04FABDC61F41902800E8C739 /* ru */,
+				04FABDC71F4192CA00E8C739 /* vi */,
+				04FABDC81F4194D300E8C739 /* th */,
+				046CA8A91F71087A00771698 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AA06C11E9B2A4B0084D715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04AA06C21E9B2A4B0084D715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AA06C41E9B2A4B0084D715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FFD49184C7C929AD485190 /* Pods-微米.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q2CKFH54BH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VLCKit",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/PSTCollectionView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "微米/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wimi.BodyCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AA06C51E9B2A4B0084D715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67B096DED318F75E98755A76 /* Pods-微米.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Q2CKFH54BH;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VLCKit",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MWPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/PSTCollectionView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "微米/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wimi.BodyCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AA06A71E9B2A4B0084D715 /* Build configuration list for PBXProject "微米" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA06C11E9B2A4B0084D715 /* Debug */,
+				04AA06C21E9B2A4B0084D715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AA06C31E9B2A4B0084D715 /* Build configuration list for PBXNativeTarget "微米" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AA06C41E9B2A4B0084D715 /* Debug */,
+				04AA06C51E9B2A4B0084D715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04C722EF1EA88A5F0064AE0A /* WeiMiModal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04C722F01EA88A5F0064AE0A /* WeiMiModal.xcdatamodel */,
+			);
+			currentVersion = 04C722F01EA88A5F0064AE0A /* WeiMiModal.xcdatamodel */;
+			path = WeiMiModal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04AA06A41E9B2A4B0084D715 /* Project object */;
+}

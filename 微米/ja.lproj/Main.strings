@@ -1,0 +1,120 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "1b8-iS-u7S"; */
+"1b8-iS-u7S.text" = "Label";
+
+/* Class = "UILabel"; text = "0:00"; ObjectID = "2Db-3U-PGt"; */
+"2Db-3U-PGt.text" = "0:00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6oX-sP-Q2D"; */
+"6oX-sP-Q2D.text" = "Label";
+
+/* Class = "UISegmentedControl"; 7o7-nu-9v9.segmentTitles[0] = "128P"; ObjectID = "7o7-nu-9v9"; */
+"7o7-nu-9v9.segmentTitles[0]" = "128P";
+
+/* Class = "UISegmentedControl"; 7o7-nu-9v9.segmentTitles[1] = "480P"; ObjectID = "7o7-nu-9v9"; */
+"7o7-nu-9v9.segmentTitles[1]" = "480P";
+
+/* Class = "UISegmentedControl"; 7o7-nu-9v9.segmentTitles[2] = "960P"; ObjectID = "7o7-nu-9v9"; */
+"7o7-nu-9v9.segmentTitles[2]" = "960P";
+
+/* Class = "UILabel"; text = "0:00"; ObjectID = "8qz-gQ-s7M"; */
+"8qz-gQ-s7M.text" = "0:00";
+
+/* Class = "UISegmentedControl"; A91-IK-cT7.segmentTitles[0] = "1080P30"; ObjectID = "A91-IK-cT7"; */
+"A91-IK-cT7.segmentTitles[0]" = "1080P30";
+
+/* Class = "UISegmentedControl"; A91-IK-cT7.segmentTitles[1] = "1080P27.5"; ObjectID = "A91-IK-cT7"; */
+"A91-IK-cT7.segmentTitles[1]" = "1080P27.5";
+
+/* Class = "UISegmentedControl"; A91-IK-cT7.segmentTitles[2] = "720P30"; ObjectID = "A91-IK-cT7"; */
+"A91-IK-cT7.segmentTitles[2]" = "720P30";
+
+/* Class = "UISegmentedControl"; A91-IK-cT7.segmentTitles[3] = "720P55"; ObjectID = "A91-IK-cT7"; */
+"A91-IK-cT7.segmentTitles[3]" = "720P55";
+
+/* Class = "UILabel"; text = "0:00"; ObjectID = "BqZ-JK-Uqz"; */
+"BqZ-JK-Uqz.text" = "0:00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Cwj-cT-wMg"; */
+"Cwj-cT-wMg.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "DGg-kg-utm"; */
+"DGg-kg-utm.text" = "Label";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Fw9-RA-GXO"; */
+"Fw9-RA-GXO.text" = "--";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "L18-WL-fYH"; */
+"L18-WL-fYH.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Nhv-1o-JYm"; */
+"Nhv-1o-JYm.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "R0b-Bc-agX"; */
+"R0b-Bc-agX.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RcB-vi-TPn"; */
+"RcB-vi-TPn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SJv-BO-WjS"; */
+"SJv-BO-WjS.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "T1v-MD-6ZJ"; */
+"T1v-MD-6ZJ.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TU2-Xy-Rhn"; */
+"TU2-Xy-Rhn.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "UNZ-y9-lLf"; */
+"UNZ-y9-lLf.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "YJx-05-qfz"; */
+"YJx-05-qfz.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "afE-ps-G90"; */
+"afE-ps-G90.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "b9b-jA-sxQ"; */
+"b9b-jA-sxQ.text" = "Label";
+
+/* Class = "UISegmentedControl"; eUa-7Y-haW.segmentTitles[0] = "50Hz"; ObjectID = "eUa-7Y-haW"; */
+"eUa-7Y-haW.segmentTitles[0]" = "50Hz";
+
+/* Class = "UISegmentedControl"; eUa-7Y-haW.segmentTitles[1] = "60Hz"; ObjectID = "eUa-7Y-haW"; */
+"eUa-7Y-haW.segmentTitles[1]" = "60Hz";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eVH-X8-n08"; */
+"eVH-X8-n08.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fB2-S4-D4C"; */
+"fB2-S4-D4C.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fM0-2q-qrb"; */
+"fM0-2q-qrb.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "gWG-u8-GfW"; */
+"gWG-u8-GfW.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iPB-7g-7Ra"; */
+"iPB-7g-7Ra.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "lRg-pC-KEs"; */
+"lRg-pC-KEs.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "pXR-c1-Yv1"; */
+"pXR-c1-Yv1.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "u3q-Ev-5EC"; */
+"u3q-Ev-5EC.text" = "Label";
+
+/* Class = "UILabel"; text = "0:00"; ObjectID = "vdl-M0-kCr"; */
+"vdl-M0-kCr.text" = "0:00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "wlr-P8-LRa"; */
+"wlr-P8-LRa.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xKA-xn-yHY"; */
+"xKA-xn-yHY.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "yum-tN-rPg"; */
+"yum-tN-rPg.normalTitle" = "Button";

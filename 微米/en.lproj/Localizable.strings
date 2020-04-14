@@ -1,0 +1,45 @@
+/* 
+  Localizable.strings
+  微米
+
+  Created by Mac on 17/4/10.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+"HP Pixi Car" = "HP Body Cam";
+"摄像机与Wi-Fi设置" = "WiFi Setting";
+"摄像机预览" = "Camera Preview";
+"摄像机文件" = "Camera Playback";
+"本地文件" = "Local Album";
+"Wi-Fi设置" = "WiFi Setting";
+"摄像机设置" = "Camera Setting";
+"Wi-Fi名称" = "WiFi ID";
+"Wi-Fi密码" = "WiFi Password";
+"更新" = "Update";
+"影像解析度" = "Resolution";
+"固件版本" = "Firmware version";
+"App版本" = "App version";
+"未连接摄像机" = "Camera Disconnected";
+"确定" = "Confirm";
+"取消" = "Cancel";
+"设置失败！" = "Setting Fail!";
+"设置成功！" = "Setting Success!";
+"摄像机将会重启Wi-Fi" = "Connect WiFi again";
+"删除%d个文件？" = "Delete %d file(s)?";
+"获取摄像机信息失败" = "Unable to get info from camera!";
+"碰撞侦测" = "Collision Detection";
+"电源频率" = "Anti-flicker";
+"曝光" = "EV";
+"时间设置" = "Date/Time";
+"关" = "Off";
+"低灵敏度" = "Low Sensitivity";
+"中灵敏度" = "Normal Sensitivity";
+"高灵敏度" = "High Sensitivity";
+"下载" = "Download";
+"请允许\"HP Pixi Car\"访问iPhone的\"照片\"。" = "Allow \"HP Body Cam\" access photos and videos from your phone?";
+"Done" = "✕";
+"Wi-Fi名称超过长度限制" = "Wi-Fi ID is too long";
+"密码过长" = "Password is too long";
+"请输入至少8个字符" = "Please enter at least 8 digits";
+"App版本:" = "App Version:";
+
+"确定删除%lu个文件?" = "Are you sure to delete %lu files?";

@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  微米
+
+  Created by Mac on 17/9/28.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+NSPhotoLibraryUsageDescription = "Разрешить \"HP Body Cam\" доступа к фото и видео с вашего телефона?";

@@ -1,0 +1,42 @@
+/* 
+  Localizable.strings
+  微米
+
+  Created by Mac on 17/4/10.
+  Copyright © 2017年 APK. All rights reserved.
+*/
+"HP Pixi Car" = "HP Body Cam";
+"摄像机与Wi-Fi设置" = "Cài đặt camera và Wifi";
+"摄像机预览" = "Xem trước camera";
+"摄像机文件" = "Xem lại camera";
+"本地文件" = "Album chứa dữ liệu";
+"Wi-Fi设置" = "Cài đặt Wifi";
+"摄像机设置" = "Cài đặt Camera";
+"Wi-Fi名称" = "Tài khoản Wifi";
+"Wi-Fi密码" = "Mật khẩu Wifi";
+"更新" = "Cập nhật";
+"影像解析度" = "Độ phân giải";
+"固件版本" = "Phiên bản phần mềm";
+"App版本" = "Phiên bản App";
+"未连接摄像机" = "Camera chưa được kết nối";
+"确定" = "Xác nhận";
+"取消" = "Hủy bỏ";
+"设置失败！" = "Cài đặt thất bại!";
+"设置成功！" = "Cài đặt thành công!";
+"摄像机将会重启Wi-Fi" = "Kết nối Wifi lần nữa";
+"删除%d个文件？" = "Xóa %d files?";
+"获取摄像机信息失败" = "Không thể lấy thông tin từ Camera!";
+"碰撞侦测" = "Phát hiện va chạm";
+"电源频率" = "Chống nháy hình";
+"曝光" = "EV";
+"时间设置" = "Ngày/Giờ";
+"关" = "Tắt";
+"低灵敏度" = "Độ nhạy thấp";
+"中灵敏度" = "Độ nhạy trung bình";
+"高灵敏度" = "Độ nhạy cao";
+"下载" = "Tải xuống";
+"请允许\"HP Pixi Car\"访问iPhone的\"照片\"。" = "Cho phép \"HP Body Cam\" truy cập ảnh và video từ điện thoại của bạn?";
+"Done" = "✕";
+"Wi-Fi名称超过长度限制" = "ID Wifi quá dài";
+"密码过长" = "Mật khẩu quá dài";
+"请输入至少8个字符" = "Vui lòng nhập ít nhất 8 chữ số";
